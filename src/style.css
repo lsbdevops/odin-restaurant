@@ -77,21 +77,51 @@ body {
     text-shadow: 0.5px 0.5px var(--primary-trim-colour);
 }
 
-.about-us {
+.main-content-wrapper {
     padding: 5vh 15vw;
 }
 
-.main-content-wrapper {
+.about-us {
     display: flex;
     box-shadow: 0px 0px 20px var(--secondary-trim-colour);
+}
 
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 30px;
+    box-shadow: 0px 0px 20px var(--secondary-trim-colour);
+}
+
+.menu > h2 {
+    grid-column: 1 / span 2;
+}
+
+.menu > img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.item-information > h3 {
+    color: var(--primary-trim-colour);
+    font-size: 2.5rem;
+}
+
+.item-information {
+    align-self: start;
+    height: 100%;
+    padding: 0px 15px;
+    background-color: var(--primary-bg-colour);
 }
 
 .image-wrapper, .information {
     flex-basis: 100%;
 }
 
-.image-wrapper {
+.about-us > .image-wrapper {
     background-image: url(./Assets/Pizza.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -99,13 +129,13 @@ body {
     background-color: var(--secondary-bg-colour);
 }
 
-.information {
+.information, .menu {
     background-color: var(--secondary-bg-colour);
     text-align: center;
     padding: 20px;
 }
 
-.information > h2 {
+.information > h2, .menu > h2 {
     color: var(--primary-font-colour);
     font-family: GreatVibes, Cursive;
     letter-spacing: 3px;
@@ -113,7 +143,7 @@ body {
     margin: 20px;
 }
 
-.information > p {
+.information > p, .item-information {
     color: var(--secondary-font-colour);
     font-family: Oswald, sans-serif;
     font-size: 1.5em;
@@ -143,7 +173,6 @@ body {
     height: 100%;
     color: var(--primary-font-colour);
     font-size: 2rem;
-    vertical-align: center;
 }
 
 .footer a {
