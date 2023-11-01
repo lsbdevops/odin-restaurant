@@ -66,7 +66,7 @@ function ElObject (tag, cls, text, attr) {
     this.tag = tag;
     this.class = cls;
     this.text = text;
-    this.attr = attr;
+    this.attributes = attr;
 }
 
 export {appendSiblingsToParent, appendCascadingChildren, ElObject};
