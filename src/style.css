@@ -147,8 +147,15 @@ body {
 
 .menu > img, .contact-us > img {
     width: 100%;
-    max-height: 400px;
     object-fit: cover;
+}
+
+.contact-us > img {
+    max-height: 800px;
+}
+
+.menu> img {
+    max-height: 400px;
 }
 
 .item-information > h3 {
