@@ -29,6 +29,7 @@ function createDevDetails() {
     // Create github logo image.
     const logo = new Image();
     logo.src = GithubIcon;
+    logo.alt = 'Github Logo';
 
     // Append elements.
     const [div, email, li, a] = devDetEls;

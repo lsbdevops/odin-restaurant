@@ -1,6 +1,10 @@
 import "./style.css";
 import header from "./createHeader.js";
 import footer from "./createFooter.js";
+import home from "./createHomeContent.js";
 
-document.querySelector("#content").appendChild(header());
-document.querySelector("#content").appendChild(footer('home'));
+
+const content = document.querySelector("#content");
+content.appendChild(header());
+content.appendChild(home());
+content.appendChild(footer('home'));
