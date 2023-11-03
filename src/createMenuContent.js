@@ -1,4 +1,4 @@
-import {default as elGenerator, appendSiblingsToParent, appendCascadingChildren, ElObject as ElObj} from "./domManipulator";
+import {default as elGenerator, appendSiblingsToParent, ElObject as ElObj} from "./domManipulator";
 import margPizzaImg from "./Assets/margherita pizza.jpg";
 import prosPizzaImg from "./Assets/prosciutto pizza.jpg";
 import lucaPizzaImg from "./Assets/luca's special pizza.jpg";

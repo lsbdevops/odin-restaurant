@@ -13,9 +13,9 @@ function createHeaderNav() {
         const headerNavObjs = [
             new ElObj('div', 'header-nav'),
             new ElObj('ul'),
-            new ElObj('li', null, 'Home'),
-            new ElObj('li', null, 'Menu'),
-            new ElObj('li', null, 'Contact')
+            new ElObj('li', null, 'Home', {'id': 'home'}),
+            new ElObj('li', null, 'Menu', {'id': 'menu'}),
+            new ElObj('li', null, 'Contact', {'id': 'contact'})
         ];
     
         const headerNavEls = elGenerator(headerNavObjs);

@@ -1,4 +1,4 @@
-import {default as elGenerator, appendSiblingsToParent, appendCascadingChildren, ElObject as ElObj} from "./domManipulator";
+import {default as elGenerator, appendSiblingsToParent, ElObject as ElObj} from "./domManipulator";
 import pizzaKitchen from "./Assets/Pizza kitchen.jpg";
 
 const formElements = ['name', 'email', 'phone', 'message', 'button'];
